@@ -1,0 +1,60 @@
+.card {
+    width: 360px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 14px;
+    }
+        
+    .card-title {
+        color: #151c50;
+        font-family: "ALK Sanet", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .card-text {
+        color: #151c5099;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    span{
+        margin-bottom: 12px;
+        font-family: "ALK Sanet", sans-serif;
+    }
+   .range {
+    background: rgba(59,191,57,.08) !important;
+    border: 1px solid #3bbf39 !important;
+    border-radius: 8px !important;
+    padding: 6px 12px 4px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: "ALK Sanet", sans-serif;
+    color: #3bbf39;
+    line-height: 20px !important;
+   }
+   .elementor-widget-container{
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+
+    .meets{
+        background: rgba(255,97,29,.08);
+        border: 1px solid #ff611d;
+        border-radius: 8px;
+        padding: 6px 12px 4px;
+        color: #ff611d;
+        font-family: "ALK Sanet", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+   }
+}
+

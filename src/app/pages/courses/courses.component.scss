@@ -1,0 +1,26 @@
+.title-curse {
+    padding: 70px 0px 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    gap: 8px;
+    font-family: "ALK Sanet", sans-serif;
+}
+
+.curse {
+    list-style: inherit;
+    color: red;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+

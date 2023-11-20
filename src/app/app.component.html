@@ -1,0 +1,32 @@
+<div class="main">
+  <header>
+    <app-header></app-header>
+  </header>
+  <router-outlet></router-outlet>
+  <ng-container *ngIf="getUrl()">
+    <div class="cta " data-aos="fade-in" style="padding: 0px 0px 150px 0px !important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contact-cta">
+            <h3 class="h2">
+              განახორციელეთ თქვენი პროექტი
+            </h3>
+            <p>
+              გვითხარით მეტი თქვენი პროექტის შესახებ. მოხარული ვართ, რომ მხარს გიჭერთ.
+            </p>
+            <a routerLink="./contact"
+               class="btn btn-primary">
+               დაგვიკავშირდით
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </ng-container>
+    <footer>
+    <app-footer></app-footer>
+  </footer>
+</div>
+
